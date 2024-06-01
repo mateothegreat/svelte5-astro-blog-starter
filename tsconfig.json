@@ -3,8 +3,14 @@
     "module": "esnext",
     "baseUrl": ".",
     "paths": {
-      "$lib/*": [
+      "$src/*": [
         "src/*"
+      ],
+      "$components/*": [
+        "src/components/*"
+      ],
+      "$layouts/*": [
+        "src/layouts/*"
       ]
     }
   },
